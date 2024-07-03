@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "dev": "next dev",
+    "dev": "cross-env NODE_ENV=development next dev",
     "start": "next start"
   },
   "dependencies": {
